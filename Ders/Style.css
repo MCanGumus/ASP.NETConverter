@@ -1,0 +1,138 @@
+﻿body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image:url('images/arkaplan.jpg');
+}
+
+* {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    margin: 0px 0 0 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color:darkorange;
+}
+
+#wrapper  {
+    width: 960px;
+    height: 1100px;
+    margin: 0 auto;
+
+}
+header{
+    float:left;
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+}
+    header .logo{
+        background-image:url('/images/logo.png');
+        font: bold;
+        color:brown;
+        float: left;
+        width: 45px;
+        height: 45px;
+        border-right: 1px solid #ff0000;
+        text-align: center;
+        line-height: 45px;
+    }
+    header nav {
+        float: left;
+        width: 914px;
+        height: 45px;
+        line-height: 45px;
+        background-color: #5f4b8b;
+    }
+    header nav ul{
+        list-style: none;
+       
+    }
+        header nav ul li {
+            float:left;
+            margin-left: 70px;
+            margin-right :80px;
+            color:#fff;
+        }
+
+
+.banner{
+    float: left;
+    margin-top: 45px;
+    width: 960px;
+    height: 600px;
+    line-height:100px;
+    text-align:center;
+    font-size:25px;
+}
+      .banner .btnSave {
+        float: right;
+        margin-right: 180px;
+        border: none;
+        color: white;
+        background-color: crimson;
+        padding: 10px 20px;
+        cursor: pointer;
+        border: 2px solid black;
+        -moz-border-radius: 16px;
+        -webkit-border-radius: 16px;
+        border-radius: 16px;
+    }
+        .banner .btnSave:hover {
+            background-color: yellow;
+            border: 2px solid gray;
+            color: red;
+        }
+    .banner .btnConvert {
+        float: right;
+        margin-right: 180px;
+        border: none;
+        color: white;
+        background-color: crimson;
+        padding: 10px 20px;
+        cursor: pointer;
+        border: 2px solid black;
+        -moz-border-radius: 16px;
+        -webkit-border-radius: 16px;
+        border-radius: 16px;
+    }
+
+        .banner .btnConvert:hover {
+            background-color: yellow;
+            color: red;
+            border: 3px solid gray;
+        }
+    .banner .btnUpload {
+        float: left;
+        margin-left: 140px;
+        border: none;
+        color: white;
+        background-color: crimson;
+        padding: 10px 20px;
+        cursor: pointer;
+        border: 2px solid black;
+        -moz-border-radius: 16px;
+        -webkit-border-radius: 16px;
+        border-radius: 16px;
+    }
+
+        .banner .btnUpload:hover {
+            background-color: yellow;
+            color: red;
+            border: 3px solid gray;
+        }
+
+    .banner .FileUpload1{
+       float:left; 
+       margin-left:75px;
+    }
+ 
+
+
+
+
+
